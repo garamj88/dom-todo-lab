@@ -1,23 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>DOM To-do Lab</title>
+  <link rel="stylesheet" href="./css/style.css">
   <script defer src="./js/app.js"></script>
 </head>
+
 <body>
   <!-- 1. Add h1: To-do List -->
   <h1>To-do List</h1>
   <!-- 2. Add input w/ id (= todo-ipt) & attribute of type with a value of text -->
-  <input id="todo-ipt" type="text">
-  <!-- 3. Add button: Add To-do w/ id (=submit-button) & -->
-  <button id="submit-button">Add To-do</button>
-  <!-- Level-up 2: create reset button -->
-  <button id="reset-button">Reset</button>
-  <!-- 4. Add ul w/ id (=todo-list) -->
+  <!-- add a div ele and align input & buttons aligned horizontally -->
+  <div>
+    <input id="todo-ipt" type="text">
+    <!-- 3. Add button: Add To-do w/ id (=submit-button) & -->
+    <button id="submit-button">Add To-do</button>
+    <!-- Level-up 2: create reset button -->
+    <button id="reset-button">Reset</button>
+    <!-- 4. Add ul w/ id (=todo-list) -->
+  </div>
   <ul id="todo-list">
   </ul>
 </body>
+
 </html>
